@@ -1,0 +1,7 @@
+# Core dependencies for the AI Travel Agent
+agent-framework-core>=1.0.0b260107
+python-dotenv>=1.2.1
+
+# Jupyter support for notebook execution
+ipykernel>=6.29.0
+jupyter>=1.0.0
