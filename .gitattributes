@@ -1,0 +1,7 @@
+# Source - https://stackoverflow.com/a/79802097
+# Posted by ozkanpakdil
+# Retrieved 2026-01-14, License - CC BY-SA 4.0
+
+* text=auto eol=lf
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
