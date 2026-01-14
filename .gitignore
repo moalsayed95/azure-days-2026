@@ -5,6 +5,13 @@
 *.env
 !.env.example
 
+# Local development files (keep locally, exclude from repo)
+main.py
+travel_agent.py
+pyproject.toml
+uv.lock
+.python-version
+
 # Python
 __pycache__/
 *.py[cod]

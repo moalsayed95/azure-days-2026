@@ -67,10 +67,7 @@ After your Codespace is ready, create a `.env` file with your Azure AI credentia
 ├── .devcontainer/          # GitHub Codespaces configuration
 │   └── devcontainer.json   # Container setup with Python & Jupyter
 ├── .env.example            # Template for environment variables
-├── python-agent-framework-travelagent.ipynb  # Main hackathon notebook
-├── travel_agent.py         # Standalone agent script
-├── main.py                 # CLI entry point
-├── pyproject.toml          # Python project configuration
+├── python-agent-framework-travelagent.ipynb  # 🎯 Main hackathon notebook
 └── requirements.txt        # Python dependencies
 ```
 
