@@ -1,6 +1,6 @@
 {
     "name": "Azure Days 2026 - Python AI Agent Hackathon",
-    "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+    "image": "mcr.microsoft.com/devcontainers/python:3.14-trixie",
 
     "customizations": {
         "vscode": {
@@ -16,7 +16,7 @@
         }
     },
 
-    "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+    "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt && python -m ipykernel install --user",
     
     "remoteEnv": {
         "AZURE_OPENAI_ENDPOINT": "${localEnv:AZURE_OPENAI_ENDPOINT}",

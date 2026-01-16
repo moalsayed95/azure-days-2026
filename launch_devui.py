@@ -6,7 +6,7 @@ from agent_framework import ChatAgent
 from agent_framework.openai import OpenAIChatClient
 from agent_framework.devui import serve
 
-load_dotenv()
+load_dotenv(override=True)
 
 def get_random_destination() -> str:
     destinations = [
