@@ -140,6 +140,11 @@ pip install -r requirements.txt
 - Ensure there are no extra spaces or quotes
 - Verify your Azure OpenAI resource is deployed
 
+### "Resource not found" Error
+- Double check your `.env` file
+- The `AZURE_OPENAI_ENDPOINT` has to follow this format: https://XXXXX.openai.azure.com/openai/v1/
+- If you need to fix, also restart kernel
+
 ### Kernel Not Found
 - Click "Select Kernel" in the top-right of the notebook
 - Choose "Python 3.12" or the recommended Python interpreter
