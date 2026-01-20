@@ -6,3 +6,6 @@ python-dotenv>=1.2.1
 # Jupyter support for notebook execution
 ipykernel>=6.29.0
 jupyter>=1.0.0
+
+# Amadeus Client for travel data access
+amadeus>=12.0.0
