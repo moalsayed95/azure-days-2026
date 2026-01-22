@@ -16,7 +16,7 @@
         }
     },
 
-    "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt && python -m ipykernel install --user",
+    "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt && python -m ipykernel install --user --name azure-days-2026 --display-name \"Python 3.14 (Azure Days 2026)\"",
     
     "remoteEnv": {
         "AZURE_OPENAI_ENDPOINT": "${localEnv:AZURE_OPENAI_ENDPOINT}",
